@@ -35,12 +35,25 @@
     <Compile Include="ablog\settings.py" />
     <Compile Include="ablog\urls.py" />
     <Compile Include="ablog\wsgi.py" />
+    <Compile Include="theblog\admin.py" />
+    <Compile Include="theblog\apps.py" />
+    <Compile Include="theblog\migrations\__init__.py" />
+    <Compile Include="theblog\models.py" />
+    <Compile Include="theblog\tests.py" />
+    <Compile Include="theblog\urls.py" />
+    <Compile Include="theblog\views.py" />
+    <Compile Include="theblog\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="theblog\templates\theblog\home.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ablog\" />
+    <Folder Include="theblog\" />
+    <Folder Include="theblog\migrations\" />
+    <Folder Include="theblog\templates\" />
+    <Folder Include="theblog\templates\theblog\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
