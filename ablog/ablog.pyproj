@@ -37,6 +37,9 @@
     <Compile Include="ablog\wsgi.py" />
     <Compile Include="theblog\admin.py" />
     <Compile Include="theblog\apps.py" />
+    <Compile Include="theblog\forms.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="theblog\migrations\__init__.py" />
     <Compile Include="theblog\models.py" />
     <Compile Include="theblog\tests.py" />
@@ -46,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="theblog\templates\theblog\add_post.html" />
     <Content Include="theblog\templates\theblog\article_details.html" />
     <Content Include="theblog\templates\theblog\base.html" />
     <Content Include="theblog\templates\theblog\home.html" />
