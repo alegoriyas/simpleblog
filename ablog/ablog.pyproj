@@ -35,6 +35,14 @@
     <Compile Include="ablog\settings.py" />
     <Compile Include="ablog\urls.py" />
     <Compile Include="ablog\wsgi.py" />
+    <Compile Include="members\admin.py" />
+    <Compile Include="members\apps.py" />
+    <Compile Include="members\migrations\__init__.py" />
+    <Compile Include="members\models.py" />
+    <Compile Include="members\tests.py" />
+    <Compile Include="members\urls.py" />
+    <Compile Include="members\views.py" />
+    <Compile Include="members\__init__.py" />
     <Compile Include="theblog\admin.py" />
     <Compile Include="theblog\apps.py" />
     <Compile Include="theblog\forms.py">
@@ -48,6 +56,8 @@
     <Compile Include="theblog\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="members\templates\registration\login.html" />
+    <Content Include="members\templates\registration\registration.html" />
     <Content Include="requirements.txt" />
     <Content Include="theblog\templates\theblog\add_post.html" />
     <Content Include="theblog\templates\theblog\article_details.html" />
@@ -58,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ablog\" />
+    <Folder Include="members\" />
+    <Folder Include="members\migrations\" />
+    <Folder Include="members\templates\" />
+    <Folder Include="members\templates\registration\" />
     <Folder Include="theblog\" />
     <Folder Include="theblog\migrations\" />
     <Folder Include="theblog\templates\" />
