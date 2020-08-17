@@ -53,6 +53,7 @@
     <Content Include="theblog\templates\theblog\article_details.html" />
     <Content Include="theblog\templates\theblog\base.html" />
     <Content Include="theblog\templates\theblog\home.html" />
+    <Content Include="theblog\templates\theblog\update_post.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ablog\" />
