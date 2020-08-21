@@ -59,6 +59,7 @@
     <Content Include="members\templates\registration\login.html" />
     <Content Include="members\templates\registration\registration.html" />
     <Content Include="requirements.txt" />
+    <Content Include="theblog\templates\theblog\add_category.html" />
     <Content Include="theblog\templates\theblog\add_post.html" />
     <Content Include="theblog\templates\theblog\article_details.html" />
     <Content Include="theblog\templates\theblog\base.html" />
