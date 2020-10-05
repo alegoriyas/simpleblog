@@ -4,7 +4,7 @@ Definition of urls for theblog.
 
 from django.urls import path
 from . import views
-from .views import HomeView, ArticleDetailView, AddPostView, UpdatePostView, DeletePostView, AddCategoryView
+from .views import HomeView, ArticleDetailView, AddPostView, UpdatePostView, DeletePostView, AddCategoryView, CategoryView
 
 urlpatterns = [
     path('', HomeView.as_view(), name='home'),
@@ -14,4 +14,5 @@ urlpatterns = [
     path('article/<int:pk>/remove', DeletePostView.as_view(), name='delete_post'),
 
     path('add_category/', AddCategoryView.as_view(), name='add_category'),
+    path('category/<str:cats>/', CategoryView, name='category'),
 ]
